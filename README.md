@@ -2,7 +2,7 @@
 
  ### Техническое задание № 1: 
  
- Перечень работ:
+ ###### Перечень работ:
  
 1. Пройти регистрацию пользователя;
 
@@ -14,7 +14,7 @@
 
 WSDL — http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
 #
-1. Действительные данные для регистрации:
+###### 1. Действительные данные для регистрации:
 
 почта - soaptest@mail.ru ;
 
@@ -24,7 +24,7 @@ WSDL — http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
 
 Ожидаемый результат - успешная регистрация с помощью SoapUI.
 #
-2. Действительные данные для авторизации:
+###### 2. Действительные данные для авторизации:
 
 почта - soaptest@mail.ru ;
 
@@ -32,7 +32,7 @@ WSDL — http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
 
 Ожидаемый результат - успешная авторизация с помощью SoapUI.
 #
-3. Удаления профиля пользователя:
+###### 3. Удаления профиля пользователя:
 
 почта - soaptest@mail.ru ;
 
@@ -45,7 +45,7 @@ WSDL — http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
 
 ### Техническое задание № 2:
 
-Перечени работ:
+###### Перечени работ:
 
 1. Просмотреть все методы HTTP с типом POST; 
 
@@ -55,13 +55,13 @@ WSDL — http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
 #
 Тестируемый ресурс - http://shop.bugred.ru
 #
-1. Действительные данные для просмотра всех методов HTTP с типом POST:
+###### 1. Действительные данные для просмотра всех методов HTTP с типом POST:
 
 ОТДЫХ — http://users.bugred.ru/tasks/rest/list .
 
 Ожидаемый результат - в телерепортаже все методы сайта http://users.bugred.ru в формате json.
 #
-2. Действительные данные для получения информации о товарах:
+###### 2. Действительные данные для получения информации о товарах:
 
 ОТДЫХ — http://shop.bugred.ru/api/items/get ;
 
@@ -69,7 +69,7 @@ WSDL — http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
 
 Ожидаемый результат - в телерепорте представлена информация о товаре на сайте http://users.bugred.ru в формате json.
 #
-3. Действительные данные для получения информации о товарах из БД:
+###### 3. Действительные данные для получения информации о товарах из БД:
 
 ОТДЫХ - http://shop.bugred.ru/api/items/get/
 
